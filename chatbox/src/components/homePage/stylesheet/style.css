@@ -1,0 +1,14 @@
+.homepage_main_div{
+    display: flex;
+    width: 100%;
+    
+
+}
+
+.chat_body_div{
+    width: 100%;
+}
+
+.chat_body_div{
+    flex: .3;
+}

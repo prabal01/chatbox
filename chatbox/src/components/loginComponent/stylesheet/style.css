@@ -1,0 +1,57 @@
+.login_page_outer_div{
+    display:  flex;
+    flex-direction: column;
+
+}
+
+.login_page_inner_div{
+    display: grid;
+    height: 90vh;
+    place-items: center;
+}
+
+.input_fields{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 20px grey;
+    border-radius: 10px;
+
+}
+
+input{
+    margin-bottom: 30px;
+}
+
+.button_div{
+    align-items: left;
+}
+.button_div button{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    width: 90px;
+}
+.button_div button:focus{
+    outline: none;
+}
+.button_div button:hover{
+    outline: none;
+    background-color: rgb(4, 153, 4);
+    cursor: pointer;
+}
+.logo_chatbox{
+    width: 100%;
+
+}
+h1{
+    color: #1c1427;
+}
+
+.mes{
+    font-size: xx-small;
+    color: red;
+}

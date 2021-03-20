@@ -1,0 +1,30 @@
+.chat_main_div{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 90%;
+    overflow: auto;
+    justify-content: right;
+    padding: 20px;
+    
+}
+
+.text{
+    margin: 0px;
+}
+
+.sender_name{
+    margin: 0px;
+}
+
+
+.chat_message p{
+    margin: 10px;
+    text-align: right;
+    font-size: small;
+}
+
+.sender_name{
+    font-weight: bold;
+    font-size: xx-small;
+}

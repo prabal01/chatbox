@@ -1,0 +1,23 @@
+.input_field_main_div{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.input_field_main_div button{
+
+    background-color: green;
+    color: white;
+    border: none;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.input_field_main_div button:hover{
+    background-color: rgb(1, 151, 1);
+}
+.input_field_main_div input{
+    margin: 0px;
+}

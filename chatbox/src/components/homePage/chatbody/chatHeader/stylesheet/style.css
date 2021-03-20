@@ -1,0 +1,21 @@
+.chatheader_main_div {
+  background-color: lightgray;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat_name{
+    color: #1c1427;
+    margin: 7px 0 0 5px;
+}
+
+.logout{
+  background-color:red ;
+  color: white;
+  border: none;
+}
+.logout:hover{
+  background-color: maroon;
+}

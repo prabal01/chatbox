@@ -1,0 +1,26 @@
+.header_main_div{
+    background-color: #1c1427;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.header_logo_text_div{
+    margin-left: 5px;
+    height: 30px;
+
+}
+.header_logo_text{
+    margin: 0;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;    
+}
+
+.logo_div{
+    padding: 0;
+}

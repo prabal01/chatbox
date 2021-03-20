@@ -1,0 +1,8 @@
+.sidebar_main_div{
+    flex: .3;
+    border-right: 1px solid white;
+    height: 90vh;
+    background-color: #1c1427;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}

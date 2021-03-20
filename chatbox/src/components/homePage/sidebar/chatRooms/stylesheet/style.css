@@ -1,0 +1,30 @@
+.chatrooms_main_div {
+  height: 100%;
+}
+.chat_room_div {
+  display: flex;
+  padding: 10px;
+  color: white;
+}
+.chat_room {
+  margin: 0;
+  margin-left: 5px;
+}
+
+
+
+.chat_avtar {
+  border-right: 1px solid grey;
+  padding-right: 5px;
+}
+
+.chat_room_div:hover {
+  background-color: white;
+  color: #1c1427;
+  
+}
+.chat_avtar {
+  height: 20px;
+  width: 20px;
+
+}
