@@ -55,11 +55,14 @@ app.post("/register", (req, res) => {
     const newUser = new UserData({ userName: req.body.userName, email: req.body.email, password: req.body.password })
     newUser.save((err) => {
         if (!err) {
-            console.log("new user created!!")
+            console.log({res:true,mes:"yeahh!! you can login now"})
+            res.send({res:true,mes:"yeahh!! you can login now"})
         } else {
-            console.log("err :" + err)
+            console.log({res:false, mes: "use a different email"})
+            res.send({res:false, mes: "use a different email"})
         }
     })
+    
 
 })
 

@@ -74,6 +74,7 @@ export default function LoginPage(props) {
                     }} placeholder="password" />
                     <div className="button_div">
                         <button onClick={loginHandler} >Login</button>
+                        <p className="new_account" onClick={props.RegisterPage}>create a new account</p>
                     </div>
                 </div>
             </div>

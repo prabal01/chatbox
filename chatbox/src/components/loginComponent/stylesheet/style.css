@@ -21,7 +21,7 @@
 }
 
 input{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .button_div{
@@ -54,4 +54,14 @@ h1{
 .mes{
     font-size: xx-small;
     color: red;
+}
+
+.new_account{
+    color: blue;
+    font-size: xx-small;
+    cursor: pointer;
+}
+
+.new_account:hover{
+    color: rgb(19, 19, 110);
 }

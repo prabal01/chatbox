@@ -3,6 +3,7 @@ import './App.css';
 import LoginPage from './components/loginComponent/login';
 import Homepage from './components/homePage/homePage';
 import { useState, useEffect } from "react"
+import Register from './components/register/register';
 const axios = require("axios")
 
 function App() {
@@ -10,9 +11,13 @@ function App() {
   const [userName, setUserName] = useState("")
   const [curRoom, setCurRoom] = useState("Coding Room");
   const [allChats, setAllChats] = useState([]);
+  const [isRegister, setIsRegister] = useState(false);
+
+  const pageToggler=()=>{
+    setIsRegister(! isRegister)
+  }
 
   useEffect(() => {
-    console.log("=======");
     console.log(localStorage.getItem("token"));
     if (localStorage.getItem("token")) {
       console.log("inside if")
@@ -81,8 +86,11 @@ function App() {
   }
 
   var curDis = <Homepage CurUser={userName} ChangeRoomName={roomNameChangeHandler} RoomName={curRoom} AllChats={allChats} LogOutHandler={logOutHandler} SendMessageHandler={sendMessageHandler} />
-  if (isLogin == false) {
-    curDis = <LoginPage LoginHandler={isLoginHandler} />
+  if (isLogin == false && isRegister==false) {
+    curDis = <LoginPage LoginHandler={isLoginHandler} RegisterPage={pageToggler} />
+  }
+  else if(isLogin==false && isRegister==true){
+    curDis= <Register LoginPage={pageToggler}/>
   }
 
 
